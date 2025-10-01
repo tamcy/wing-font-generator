@@ -98,7 +98,7 @@ if __name__ == "__main__":
     parser.add_argument('-f', '--family-name', help="Replace with the new family name")
     parser.add_argument('-y', '--anno-y-offset', type=float, default=0.8, help="Y offset in (percentage) for annotation string")
     parser.add_argument('-bs', '--base-scale', type=float, default=0.75, help="The scaling factor for the base font")
-    parser.add_argument('-as', '--anno-scale', type=float, default=0.15, help="The scaling factor for the base font")
+    parser.add_argument('-as', '--anno-scale', type=float, default=0.15, help="The scaling factor for the annotation font")
     parser.add_argument('-opt', '--optimize', action="store_true", help="Optimizing size by subsetting annotated glyph only")
     try:
         options = parser.parse_args()
